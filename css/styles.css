@@ -1,0 +1,165 @@
+#maintitle {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 15%; 
+}
+#learn {
+    position: absolute;
+    left: 10%;
+    font-family: "Vermin Vibes Mert";
+    font-size: 72px;
+    text-align: left;
+    color: red;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+#do {
+    position: absolute;
+    left: 47%;
+    font-family: "Vermin Vibes Mert";
+    font-size: 72px;
+    text-align: center;
+    color: red;
+    display: inline-block;
+    font-weight: bolder;
+}
+#share {
+    position: absolute;
+    right: 10%;
+    font-family: "Vermin Vibes Mert";
+    font-size: 72px;
+    text-align: right;
+    color: red;
+    display: inline-block;
+    font-weight: bolder;
+}
+#fixed {
+    position: fixed; 
+    overflow: hidden;
+    max-width: 50%;
+    max-height: 50%;
+    bottom: 70.4%;
+    left: 77%;
+    right: .01%;
+}
+
+.logoTop {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navbar-nav2{
+    text-align: center;
+    font-family: 'Vermin Vibes Mert';
+    font-size: 50px;
+}
+
+p{
+    background-color: white;
+    text-align: justify;
+}
+.row-centered {
+    text-align: center;
+    background-color: white;
+}
+
+.col-centered {
+    text-align: center;
+    background-color: white;
+}
+
+.col-centered2 {
+    text-align: center;
+}
+
+@-webkit-keyframes thumb {
+    0% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(0.9); }
+    100% { -webkit-transform: scale(1); }
+}
+
+@-webkit-keyframes shake {
+    0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+    10% { -webkit-transform: translate(-1px, -2px) rotate(-2deg); }
+    20% { -webkit-transform: translate(-3px, 0px) rotate(3deg); }
+    30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+    40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+    50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+    70% { -webkit-transform: translate(2px, 1px) rotate(-2deg); }
+    80% { -webkit-transform: translate(-1px, -1px) rotate(4deg); }
+    90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+    100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.col-centered img:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration:0.8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-transform-origin:50% 100%;
+}
+
+@font-face {
+    font-family: "Vermin Vibes Mert";
+    src: url("../fonts/Vermin-Vibes-Mert.ttf");
+}
+
+.card-shadow {
+    background-color: white;
+    box-shadow: 0px 0px 20px black;
+}
+
+#faded_line_red{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#FF0000), to(#fff));
+}
+
+#faded_line_green{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#00ff00), to(#fff));
+}
+#faded_line_blue{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#3399ff), to(#fff));
+}
+
+.container-calendar {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+}
+
+#calendar {
+    width: 100%;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.btn-round {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#clock {
+    text-align: center;
+    font-size: 40px;
+}
